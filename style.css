@@ -1,0 +1,208 @@
+/* Gaya dasar */
+body {
+    font-family: COOLVETICA, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tambahkan CSS ini di file style.css */
+.page-divider {
+    border-top: 1px solid #000; /* Atur warna dan ketebalan garis sesuai keinginan Anda */
+    margin: 20px 0; /* Atur jarak atas dan bawah sesuai keinginan Anda */
+}
+
+/* Tambahkan CSS ini di file style.css */
+.page-content {
+    transition: transform 0.3s ease-in-out;
+}
+
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+.page-content.active {
+    transform: scale(1.05); /* Atur skala sesuai keinginan Anda */
+}
+
+/* Tambahkan CSS ini di file style.css atau dalam tag <style> di HTML */
+img {
+    width: 250px; /* Atur lebar gambar sesuai kebutuhan Anda */
+    height: auto; /* Biarkan tinggi gambar disesuaikan agar sesuai dengan aspek gambar */
+    margin: 20px; /* Atur jarak di sekitar gambar */
+}
+
+/* Tambahkan CSS ini di file style.css atau dalam tag <style> di HTML */
+.social-icons a {
+    display: inline-block;
+    margin: 5px; /* Atur jarak antara ikon sosial media */
+}
+
+.social-icons a img {
+    width: 50px; /* Atur lebar ikon sesuai kebutuhan Anda */
+    height: 50px; /* Atur tinggi ikon sesuai kebutuhan Anda */
+}
+
+
+
+nav ul li {
+    position:static;
+    display:inline;
+    padding-inline: 5px;
+    margin-right: 90px;
+
+    
+    
+}
+
+
+
+header {
+    background-color: #7B0303;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+    
+}
+
+/* Tambahkan CSS ini di file style.css atau dalam tag <style> di HTML */
+.header-box {
+    background: linear-gradient(to bottom, #007bff, #0056b3); /* Warna gradasi dari atas ke bawah */
+    padding: 20px; /* Atur padding untuk memberikan ruang di sekitar teks */
+    text-align: center; /* Pusatkan teks horizontal di dalam kotak */
+}
+
+.header-text {
+    color: #fff; /* Warna teks putih atau sesuai kebutuhan Anda */
+    font-size: 36px; /* Atur ukuran teks sesuai kebutuhan Anda */
+    margin: 0; /* Hapus margin default pada elemen h1 */
+}
+
+
+.profile-pic img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+nav ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+.menu li {
+    margin-bottom: 10px; /* Atur jarak bawah sesuai kebutuhan Anda */
+}
+
+/* Tambahkan CSS ini di file style.css atau dalam tag <style> di HTML */
+#tentang {
+    font-size: 18px; /* Atur ukuran font sesuai dengan kebutuhan Anda */
+}
+
+.tentang h2 {
+    font-size: 24px; /* Ukuran font untuk judul h2 */
+}
+
+.tentang p {
+    font-size: 16px; /* Ukuran font untuk teks paragraf */
+}
+
+#Hobby {
+    font-size: 18px;
+}
+
+.Hobby h2{
+    font-size: 24px;
+}
+
+.Hobby p{
+    font-size: 16px;
+}
+
+#kontak {
+    font-size: 18px;
+}
+
+.kontak h2{
+    font-size: 24px;
+}
+
+.kontak p{
+    font-size: 16px;
+}
+
+#skill {
+    font-size: 18px;
+}
+
+.skill h2{
+    font-size: 24px;
+}
+
+.skill p{
+    font-size: 16px;
+}
+
+.image-container {
+    background-image: url('wp8102840.jpg'); /* Ganti dengan URL gambar yang ingin Anda gunakan */
+    background-size: cover; /* Untuk memastikan gambar sesuai dengan ukuran elemen */
+    background-position: center; /* Pusatkan gambar dalam elemen */
+    width: 100%; /* Atur lebar elemen sesuai kebutuhan Anda */
+    height: 500px; /* Atur tinggi elemen sesuai kebutuhan Anda */
+    position: relative; /* Untuk mengizinkan penempatan absolut pada elemen anak */
+}
+
+.overlay-text {
+    position: absolute; /* Untuk menempatkan teks di atas gambar */
+    top: 50%; /* Pusatkan vertikal */
+    left: 50%; /* Pusatkan horizontal */
+    transform: translate(-50%, -50%); /* Pusatkan tepat di tengah */
+    text-align: center; /* Pusatkan teks horizontal */
+    color: #fff; /* Warna teks */
+    padding: 20px; /* Atur jarak dalam elemen teks */
+    letter-spacing: 3px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+nav a {
+    position:inherit;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 15px; /* Tambahkan padding untuk memberikan ruang di dalam kotak */
+    border: 2px solid #333; /* Menambahkan garis tepi (border) */
+    border-radius: 6px; /* Mengatur sudut melengkung pada kotak */
+    transition: background-color 0.3s ease; /* Efek transisi warna latar belakang saat dihover */
+}
+
+nav a:hover {
+    background-color: #333; /* Warna latar belakang ketika dihover */
+    color: #fff; /* Warna teks ketika dihover */
+}
+
+
+
+
+
+
+main {
+    margin: 5px;
+}
+
+/* Gaya tambahan sesuai kebutuhan Anda */
